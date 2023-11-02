@@ -1,56 +1,13 @@
-.emailContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-}
-
-.emailContainer label{
-  color: #000;
-
-  /* Subtitle1 */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px; /* 150% */
-}
-
-.emailContainer div {
-  display: flex;
-  width: 317px;
-  padding: 10px 12px;
-  align-items: center;
-  gap: 10px;
-}
-
-.emailContainer img{
-  display: flex;
-  width: 20px;
-  height: 20px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.emailContainer input{
-  color: var(--text-color-primary-text, #000);
-
-  /* Body2 */
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 142.857% */
-}
 .layout {
+  /* position: relative; */
   width: 1024px;
   height: 768px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
-
 .loginForm {
-  position: absolute;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +15,8 @@
   gap: 24px;
 }
 
-.title h2{
+.loginForm-title h2{
+
   color: var(--text-color-primary-text, #000);
 
   /* H2 */
@@ -69,7 +27,7 @@
   line-height: normal;
 }
 
-.title label {
+.loginForm-title label {
   color: var(--text-color-secondary-text, #637381);
 
   /* Caption */
@@ -80,8 +38,103 @@
   line-height: normal;
 }
 
-.background {
-  width: 1374px;
-  height: 774px;
-  flex-shrink: 0;
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.email label{
+  color: #000;
+
+  /* Subtitle1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.email div {
+  display: flex;
+  width: 317px;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 10px;
+}
+
+.email input{
+  color: var(--text-color-primary-text, #000);
+
+  /* Body2 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+
+  border-radius: 4px;
+  border: 1px solid var(--text-color-primary-text, #000);
+  background: #FFF;
+}
+
+.password{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.password label{
+  color: #000;
+
+  /* Subtitle1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.password div {
+  display: flex;
+  width: 317px;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 10px;
+}
+
+.password input{
+  color: var(--text-color-primary-text, #000);
+
+  /* Body2 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+
+  border-radius: 4px;
+  border: 1px solid var(--text-color-primary-text, #000);
+  background: #FFF;
+}
+
+.forgetPass {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.loginButton {
+  display: flex;
+  width: 317px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
